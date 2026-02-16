@@ -839,6 +839,28 @@ section,
   color: var(--accent-color);
 }
 
+.hero .hero-info {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.hero .hero-info p {
+  text-transform: none;
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: none;
+  margin-bottom: 10px;
+  letter-spacing: normal;
+}
+
+.hero .hero-info p strong {
+  font-weight: 700;
+  color: #fff;
+}
+
 @keyframes btn-up-down {
   0% {
     transform: translateY(5px);
