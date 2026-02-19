@@ -1,0 +1,27 @@
+<header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img
+            src="assets/img/MKG-DEMS-logo.jpg"
+            alt="Muskegon Democratic Party"
+          />
+          <h1 class="sitename">Muskegon Democratic Party</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="{% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">Home</a></li>
+            <li><a href="get-involved.html" class="{% if page.url == '/get-involved.html' %}active{% endif %}">Get Involved</a></li>
+            <li><a href="elections.html" class="{% if page.url == '/elections.html' %}active{% endif %}">Elections & Voting</a></li>
+            <li><a href="governance.html" class="{% if page.url == '/governance.html' %}active{% endif %}">Governance</a></li>
+            <li><a href="people.html" class="{% if page.url == '/people.html' %}active{% endif %}">People</a></li>
+            <li><a href="events.html" class="{% if page.url == '/events.html' %}active{% endif %}">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
