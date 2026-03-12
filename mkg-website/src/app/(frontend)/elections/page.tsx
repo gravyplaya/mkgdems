@@ -24,7 +24,7 @@ export default function Elections() {
               <h4>Make Your Voice Heard</h4>
               <p>
                 Voting is your most powerful tool for creating positive change.
-                Make sure you're registered and informed.
+                Make sure you&apos;re registered and informed.
               </p>
             </div>
 
@@ -70,7 +70,7 @@ export default function Elections() {
                 <p>
                   In Michigan, any registered voter can request an absentee
                   ballot without providing a reason. You can request an absentee
-                  ballot online, by mail, or in person at your local clerk's
+                  ballot online, by mail, or in person at your local clerk&apos;s
                   office.
                 </p>
                 <h4>How to Vote Absentee:</h4>
@@ -85,7 +85,7 @@ export default function Elections() {
                   </li>
                   <li>
                     <i className="bi bi-check-circle"></i>{' '}
-                    <span>Return your ballot by mail or drop it off at your local clerk's
+                    <span>Return your ballot by mail or drop it off at your local clerk&apos;s
                       office, a secure drop box, or at your voting location</span>
                   </li>
                   <li>
@@ -139,7 +139,7 @@ export default function Elections() {
                 <h3>Voting District</h3>
                 <p>
                   Understanding your voting districts helps you know which
-                  candidates and issues you'll vote on. Muskegon County is
+                  candidates and issues you&apos;ll vote on. Muskegon County is
                   divided into various districts for federal, state, and local
                   elections.
                 </p>
@@ -182,7 +182,7 @@ export default function Elections() {
               <div id="county-clerk-results" className="mb-5">
                 <h3>Election Results</h3>
                 <p>
-                  The Muskegon County Clerk's office maintains official election
+                  The Muskegon County Clerk&apos;s office maintains official election
                   results for all elections held in Muskegon County.
                 </p>
                 <p>

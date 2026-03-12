@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { getPayload } from 'payload'
 import configPromise from '@payload-config'
 import RichText from '@/components/RichText'
-import { Media } from '@/components/Media'
 
 export const dynamic = 'force-dynamic'
 

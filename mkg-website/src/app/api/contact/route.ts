@@ -1,6 +1,5 @@
 import { getPayload } from 'payload'
 import configPromise from '@/payload.config'
-import { NextResponse } from 'next/server'
 
 export async function POST(req: Request) {
   try {
@@ -14,7 +13,7 @@ export async function POST(req: Request) {
 
     // 1. Ensure a "Contact Form" exists in the forms collection
     // We search for it or create it if missing so we can link submissions to it
-    let contactForm = await payload.find({
+    const contactForm = await payload.find({
       collection: 'forms',
       where: {
         title: {

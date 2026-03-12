@@ -3,7 +3,7 @@ import { PageHeader } from '@/components/PageHeader'
 import Link from 'next/link'
 import { getPayload } from 'payload'
 import configPromise from '@payload-config'
-import RichText from '@/components/RichText'
+
 
 export const dynamic = 'force-dynamic'
 

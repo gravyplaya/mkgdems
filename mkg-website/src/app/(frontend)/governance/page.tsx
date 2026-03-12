@@ -3,7 +3,6 @@ import Link from 'next/link'
 import configPromise from '@payload-config'
 import { getPayload } from 'payload'
 import { formatDateTime } from '@/utilities/formatDateTime'
-import type { Agenda } from '@/payload-types'
 
 export default async function Governance() {
   const payload = await getPayload({ config: configPromise })

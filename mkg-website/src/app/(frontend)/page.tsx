@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -20,11 +21,11 @@ export default function Home() {
           </div>
 
           <div className="d-flex flex-wrap gap-3 justify-content-center mt-4">
-            <a href="/get-involved#join-us" className="btn btn-primary">Join Us</a>
-            <a href="/get-involved#donate" className="btn btn-primary">Donate</a>
-            <a href="/events" className="btn btn-primary">Upcoming Events</a>
-            <a href="/elections" className="btn btn-primary">Voting Info</a>
-            <a href="/governance" className="btn btn-primary">Governance</a>
+            <Link href="/get-involved#join-us" className="btn btn-primary">Join Us</Link>
+            <Link href="/get-involved#donate" className="btn btn-primary">Donate</Link>
+            <Link href="/events" className="btn btn-primary">Upcoming Events</Link>
+            <Link href="/elections" className="btn btn-primary">Voting Info</Link>
+            <Link href="/governance" className="btn btn-primary">Governance</Link>
           </div>
           <a href="#statement" className="btn-scroll" title="Scroll Down"><i className="bi bi-chevron-down"></i></a>
         </div>
@@ -190,8 +191,8 @@ export default function Home() {
 
                 <div className="donation-cta mt-5">
                   <h4 className="mb-4">Make a Difference Today</h4>
-                  <a href="/get-involved#donate" className="btn btn-light btn-lg me-3">Donate Now</a>
-                  <a href="/get-involved#join-us" className="btn btn-outline-light btn-lg">Become a Member</a>
+                  <Link href="/get-involved#donate" className="btn btn-light btn-lg me-3">Donate Now</Link>
+                  <Link href="/get-involved#join-us" className="btn btn-outline-light btn-lg">Become a Member</Link>
                 </div>
 
                 <p className="mt-4 small">
@@ -211,7 +212,7 @@ export default function Home() {
         <div className="container section-title" >
           <h2>Get In Touch</h2>
           <p>
-            Have questions? Want to get involved? We'd love to hear from you.
+            Have questions? Want to get involved? We&apos;d love to hear from you.
           </p>
         </div>
 
