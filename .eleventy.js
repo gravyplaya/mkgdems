@@ -3,6 +3,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("forms");
 
+    // Ignore the new Next.js project directory
+    eleventyConfig.ignores.add("mkg-website");
+
     return {
         dir: {
             input: ".",
