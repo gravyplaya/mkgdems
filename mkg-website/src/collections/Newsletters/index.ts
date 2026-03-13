@@ -3,6 +3,7 @@ import { authenticated } from '../../access/authenticated'
 import { authenticatedOrPublished } from '../../access/authenticatedOrPublished'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import { slugField } from 'payload'
+import { revalidateNewsletter, revalidateDelete } from './hooks/revalidateNewsletter'
 
 export const Newsletters: CollectionConfig<'newsletters'> = {
   slug: 'newsletters',
@@ -15,6 +16,10 @@ export const Newsletters: CollectionConfig<'newsletters'> = {
   admin: {
     useAsTitle: 'title',
     defaultColumns: ['title', 'publishedDate', 'updatedAt'],
+  },
+  hooks: {
+    afterChange: [revalidateNewsletter],
+    afterDelete: [revalidateDelete],
   },
   fields: [
     {

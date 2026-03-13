@@ -3,6 +3,7 @@ import { authenticated } from '../../access/authenticated'
 import { authenticatedOrPublished } from '../../access/authenticatedOrPublished'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import { slugField } from 'payload'
+import { revalidateAgenda, revalidateDelete } from './hooks/revalidateAgenda'
 
 export const Agendas: CollectionConfig<'agendas'> = {
   slug: 'agendas',
@@ -15,6 +16,10 @@ export const Agendas: CollectionConfig<'agendas'> = {
   admin: {
     useAsTitle: 'title',
     defaultColumns: ['title', 'date', 'updatedAt'],
+  },
+  hooks: {
+    afterChange: [revalidateAgenda],
+    afterDelete: [revalidateDelete],
   },
   fields: [
     {
