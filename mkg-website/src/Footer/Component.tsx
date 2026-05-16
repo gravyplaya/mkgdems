@@ -45,27 +45,23 @@ export async function Footer() {
           </div>
 
           <div className="col-lg-4 col-md-12 footer-newsletter">
-            <h4>Our Newsletter</h4>
+            <h4>Get In Touch</h4>
             <p>
-              Subscribe to our newsletter and receive the latest news!
+              Have questions or want to get involved? We'd love to hear from you.
             </p>
-            <form
-              action="/api/newsletter-subscribe"
-              method="post"
-              className="php-email-form"
-            >
-              <div className="newsletter-form">
-                <input type="email" name="email" required /><input
-                  type="submit"
-                  value="Subscribe"
-                />
-              </div>
-              <div className="loading">Loading</div>
-              <div className="error-message"></div>
-              <div className="sent-message">
-                Your subscription request has been sent. Thank you!
-              </div>
-            </form>
+            <p>
+              <strong>Email:</strong>{' '}
+              <a href="mailto:muskegondems@gmail.com" style={{ color: 'var(--accent-color)' }}>
+                muskegondems@gmail.com
+              </a>
+            </p>
+            <p>
+              <strong>Phone:</strong> 231-375-7515
+            </p>
+            <div className="social-links d-flex mt-3">
+              <a href="https://www.facebook.com/MuskegonDems/" title="Facebook"><i className="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/muskegoncountydems/" title="Instagram"><i className="bi bi-instagram"></i></a>
+            </div>
           </div>
         </div>
       </div>

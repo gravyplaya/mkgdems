@@ -91,6 +91,70 @@ export default async function Events() {
             </div>
           </div>
 
+          {/* Featured Community Events */}
+          <div className="row mb-5 mt-4">
+            <div className="col-12">
+              <div className="section-title text-center">
+                <h2>Community Parades & Events</h2>
+                <p>Join us at these important community celebrations</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="row mb-5">
+            <div className="col-lg-6">
+              <div className="card h-100 border-primary">
+                <div className="card-body">
+                  <h4 className="card-title">
+                    <i className="bi bi-heart-fill text-danger"></i> Muskegon Pride Parade
+                  </h4>
+                  <p className="mb-2">
+                    <strong>
+                      <i className="bi bi-calendar-event"></i> Saturday, June 6, 2026
+                    </strong>
+                  </p>
+                  <p>
+                    Join the Muskegon County Democrats as we march in solidarity with
+                    our LGBTQ+ community at the annual Muskegon Pride Parade! Show your
+                    support for equality, love, and inclusion.
+                  </p>
+                  <ul>
+                    <li><i className="bi bi-check-circle"></i> All are welcome to march with us</li>
+                    <li><i className="bi bi-check-circle"></i> Wear blue or bring Democratic signs</li>
+                    <li><i className="bi bi-check-circle"></i> Meet 30 minutes before start time</li>
+                  </ul>
+                  <span className="badge bg-primary mb-2">Community Event</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="card h-100 border-primary">
+                <div className="card-body">
+                  <h4 className="card-title">
+                    <i className="bi bi-flag-fill" style={{ color: '#c026d3' }}></i> Juneteenth Parade
+                  </h4>
+                  <p className="mb-2">
+                    <strong>
+                      <i className="bi bi-calendar-event"></i> Friday, June 19, 2026
+                    </strong>
+                  </p>
+                  <p>
+                    Celebrate freedom and honor the end of slavery in the United States.
+                    The Muskegon County Democrats proudly participate in this important
+                    community celebration of Black history and culture.
+                  </p>
+                  <ul>
+                    <li><i className="bi bi-check-circle"></i> Commemorating emancipation and justice</li>
+                    <li><i className="bi bi-check-circle"></i> All community members encouraged to join</li>
+                    <li><i className="bi bi-check-circle"></i> Details TBA — check back closer to date</li>
+                  </ul>
+                  <span className="badge bg-primary mb-2">Community Event</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Past Events Section */}
           {pastEvents.length > 0 && (
             <>
@@ -219,12 +283,12 @@ export default async function Events() {
                     involved!
                   </p>
                   <div className="d-flex flex-wrap gap-3 justify-content-center mt-4">
-                    <Link href="/#contact" className="btn btn-primary">
-                      <i className="bi bi-envelope"></i> Subscribe to Our Newsletter
-                    </Link>
                     <Link href="/get-involved#social" className="btn btn-outline-primary">
                       <i className="bi bi-share"></i> Follow Us on Social Media
                     </Link>
+                    <a href="mailto:muskegondems@gmail.com" className="btn btn-primary">
+                      <i className="bi bi-envelope"></i> Email Us
+                    </a>
                   </div>
                 </div>
               </div>

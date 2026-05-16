@@ -48,6 +48,35 @@ export default async function Governance() {
                   are welcome to attend.
                 </p>
 
+                <h4>Standard Monthly Meeting Agenda:</h4>
+                <div className="card mb-3">
+                  <div className="card-body">
+                    <ol>
+                      <li><strong>Call to Order</strong> — Chair calls meeting to order</li>
+                      <li><strong>Roll Call / Attendance</strong></li>
+                      <li><strong>Approval of Previous Meeting Minutes</strong></li>
+                      <li><strong>Treasurer's Report</strong> — Financial update and budget review</li>
+                      <li><strong>Committee Reports</strong>
+                        <ul>
+                          <li>Membership & Outreach Committee</li>
+                          <li>Events & Fundraising Committee</li>
+                          <li>Campaign & Candidate Support Committee</li>
+                          <li>Communications Committee</li>
+                        </ul>
+                      </li>
+                      <li><strong>Old Business</strong> — Follow-up on pending items</li>
+                      <li><strong>New Business</strong> — Discussion and votes on new proposals</li>
+                      <li><strong>Resolutions</strong> — Presentation, discussion, and vote on resolutions</li>
+                      <li><strong>Announcements & Upcoming Events</strong></li>
+                      <li><strong>Adjournment</strong></li>
+                    </ol>
+                    <p className="mt-3 mb-0"><em>
+                      Meetings are held on the 2nd Thursday of each month at 6:00 pm
+                      at CIO Hall, 490 W Western Ave, Muskegon, MI 49440.
+                    </em></p>
+                  </div>
+                </div>
+
                 <h4>Recent and Upcoming Agendas:</h4>
                 <div className="list-group mb-3">
                   {agendas.docs && agendas.docs.length > 0 ? (
@@ -124,6 +153,43 @@ export default async function Governance() {
                       The Muskegon County Democratic Party supports Medicare for
                       All as a comprehensive solution to ensure healthcare
                       access for all Americans.
+                    </p>
+                  </div>
+                </div>
+
+                {/* 32-Hour Work Week Resolution */}
+                <div className="card mb-3">
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <i className="bi bi-clock"></i> Resolution in Support of a
+                      32-Hour Work Week
+                    </h5>
+                    <p className="card-text">
+                      The Muskegon County Democratic Party supports legislation to
+                      establish a standard 32-hour work week, ensuring that workers
+                      share in the gains of increased productivity and automation.
+                      A shorter workweek would improve work-life balance, strengthen
+                      families, create jobs by spreading available work, and protect
+                      worker well-being in an era of technological advancement.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Taxing AI Resolution */}
+                <div className="card mb-3">
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <i className="bi bi-robot"></i> Resolution in Support of
+                      Taxing Artificial Intelligence & Automation
+                    </h5>
+                    <p className="card-text">
+                      The Muskegon County Democratic Party supports the implementation
+                      of taxation on artificial intelligence and automated systems that
+                      displace human labor. Revenue from such taxes should fund worker
+                      retraining programs, strengthen the social safety net, and invest
+                      in public goods. As AI transforms our economy, it is essential that
+                      the benefits of automation are broadly shared rather than
+                      concentrated among a few corporations.
                     </p>
                   </div>
                 </div>

@@ -16,8 +16,7 @@ export default function Home() {
             <p className="mb-1"><strong>Meetings:</strong> 2nd Thursday of each month at 6:00 pm<br />CIO Hall, 490 W Western Ave,
               Muskegon, MI 49440</p>
             <p className="mb-1"><strong>Office Hours:</strong> Monday - Friday 12:00-6:00 pm</p>
-            <p className="mb-0 text-uppercase fw-bold" style={{ letterSpacing: '1px', color: '#ffc107' }}>Save the Date: 1 May 2026
-              <a href="/assets/mkgdems-gala-form.pdf" target="_blank" style={{ color: '#ffc107', textDecoration: 'underline' }}> Spring Gala</a></p>
+            <p className="mb-0 text-uppercase fw-bold" style={{ letterSpacing: '1px', color: '#ffc107' }}>Save The Date: 22 June – MKG Dems on the Aquastar</p>
           </div>
 
           <div className="d-flex flex-wrap gap-3 justify-content-center mt-4">
@@ -153,8 +152,8 @@ export default function Home() {
 
       {/* Donate Section */}
       <section id="donate" className="donate section accent-background">
-        <div className="container section-title" >
-          <h2>Support Our Work</h2>
+        <div className="container section-title" style={{ position: 'relative' }}>
+          <h2 style={{ position: 'relative', zIndex: 2 }}>Support Our Work</h2>
           <p>
             Your contribution helps us build a stronger Democratic presence in
             Muskegon County

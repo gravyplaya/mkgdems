@@ -15,7 +15,8 @@ export default function People() {
           <div className="row gy-4">
             <div className="col-lg-4"  >
               <div className="services-list">
-                <a href="#us-senate" className="active">U.S. Senate</a>
+                <a href="#party-officials" className="active">Party Officials</a>
+                <a href="#us-senate">U.S. Senate</a>
                 <a href="#officials">County & Local Officials</a>
                 <a href="#candidate-profiles">Candidate Profiles</a>
               </div>
@@ -28,6 +29,90 @@ export default function People() {
             </div>
 
             <div className="col-lg-8"  >
+              {/* Party Officials Section */}
+              <div id="party-officials" className="mb-5">
+                <h3>Muskegon County Democratic Party Officials</h3>
+                <p>
+                  The following officers lead the Muskegon County Democratic Party.
+                  They are elected by party members and serve to organize, coordinate,
+                  and advance Democratic values throughout Muskegon County.
+                </p>
+
+                {/* Party Chair */}
+                <div className="card mb-3">
+                  <div className="card-body">
+                    <h5 className="card-title">Party Chair</h5>
+                    <p className="card-text"><strong>Name:</strong> Open Position</p>
+                    <p className="card-text mb-1">
+                      <strong>Contact Information:</strong><br />
+                      <i className="bi bi-envelope"></i>{' '}
+                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a><br />
+                      <i className="bi bi-telephone"></i> Phone: 231-375-7515
+                    </p>
+                  </div>
+                </div>
+
+                {/* Vice Chair */}
+                <div className="card mb-3">
+                  <div className="card-body">
+                    <h5 className="card-title">Vice Chair</h5>
+                    <p className="card-text"><strong>Name:</strong> Open Position</p>
+                    <p className="card-text mb-1">
+                      <strong>Contact Information:</strong><br />
+                      <i className="bi bi-envelope"></i>{' '}
+                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a><br />
+                      <i className="bi bi-telephone"></i> Phone: 231-375-7515
+                    </p>
+                  </div>
+                </div>
+
+                {/* Secretary */}
+                <div className="card mb-3">
+                  <div className="card-body">
+                    <h5 className="card-title">Secretary</h5>
+                    <p className="card-text"><strong>Name:</strong> Open Position</p>
+                    <p className="card-text mb-1">
+                      <strong>Contact Information:</strong><br />
+                      <i className="bi bi-envelope"></i>{' '}
+                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a><br />
+                      <i className="bi bi-telephone"></i> Phone: 231-375-7515
+                    </p>
+                  </div>
+                </div>
+
+                {/* Treasurer */}
+                <div className="card mb-3">
+                  <div className="card-body">
+                    <h5 className="card-title">Treasurer</h5>
+                    <p className="card-text"><strong>Name:</strong> Open Position</p>
+                    <p className="card-text mb-1">
+                      <strong>Contact Information:</strong><br />
+                      <i className="bi bi-envelope"></i>{' '}
+                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a><br />
+                      <i className="bi bi-telephone"></i> Phone: 231-375-7515
+                    </p>
+                  </div>
+                </div>
+
+                <div className="alert alert-info mt-4">
+                  <i className="bi bi-info-circle"></i>{' '}
+                  <strong>Note:</strong> Officer positions are filled through election by
+                  party members at organizational meetings. If you are interested in a
+                  leadership role, please attend our monthly meetings or contact us
+                  at{' '}
+                  <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a>.
+                </div>
+
+                <h4 className="mt-4">Party Contact Information</h4>
+                <ul>
+                  <li><i className="bi bi-building"></i> <strong>Address:</strong> CIO Hall, 490 W Western Ave, Muskegon, MI 49440</li>
+                  <li><i className="bi bi-envelope"></i> <strong>Email:</strong> <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a></li>
+                  <li><i className="bi bi-telephone"></i> <strong>Phone:</strong> 231-375-7515</li>
+                  <li><i className="bi bi-facebook"></i> <strong>Facebook:</strong> <a href="https://www.facebook.com/MuskegonDems/" target="_blank" rel="noopener noreferrer">@MuskegonDems</a></li>
+                  <li><i className="bi bi-instagram"></i> <strong>Instagram:</strong> <a href="https://www.instagram.com/muskegoncountydems/" target="_blank" rel="noopener noreferrer">@muskegoncountydems</a></li>
+                </ul>
+              </div>
+
               {/* U.S. Senate Section */}
               <div id="us-senate" className="mb-5">
                 <h3>U.S. Senate</h3>

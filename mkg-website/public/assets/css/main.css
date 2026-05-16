@@ -666,6 +666,12 @@ section,
   z-index: -1;
 }
 
+/* Fix: Hide diagonal graphic on accent-background sections (donate) where it obscures text */
+.donate .section-title h2::after,
+.accent-background .section-title h2::after {
+  display: none;
+}
+
 .section-title p {
   margin-bottom: 0;
 }

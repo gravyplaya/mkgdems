@@ -33,8 +33,6 @@ export const HeaderClient: React.FC = () => {
             <li><Link href="/elections" className={pathname === '/elections' ? 'active' : ''}>Elections & Voting</Link></li>
             <li><Link href="/governance" className={pathname === '/governance' ? 'active' : ''}>Governance</Link></li>
             <li><Link href="/people" className={pathname === '/people' ? 'active' : ''}>People</Link></li>
-            <li><Link href="/newsletters" className={pathname === '/newsletters' ? 'active' : ''}>Newsletters</Link></li>
-            <li><Link href="/blog" className={pathname === '/blog' ? 'active' : ''}>Blog</Link></li>
             <li><Link href="/events" className={pathname === '/events' ? 'active' : ''}>Events</Link></li>
             <li><Link href="/#contact">Contact</Link></li>
           </ul>
