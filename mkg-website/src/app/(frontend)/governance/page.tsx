@@ -55,7 +55,7 @@ export default async function Governance() {
                       <li><strong>Call to Order</strong> — Chair calls meeting to order</li>
                       <li><strong>Roll Call / Attendance</strong></li>
                       <li><strong>Approval of Previous Meeting Minutes</strong></li>
-                      <li><strong>Treasurer's Report</strong> — Financial update and budget review</li>
+                      <li><strong>Treasurer&apos;s Report</strong> — Financial update and budget review</li>
                       <li><strong>Committee Reports</strong>
                         <ul>
                           <li>Membership & Outreach Committee</li>

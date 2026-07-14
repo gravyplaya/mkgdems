@@ -47,7 +47,7 @@ export async function Footer() {
           <div className="col-lg-4 col-md-12 footer-newsletter">
             <h4>Get In Touch</h4>
             <p>
-              Have questions or want to get involved? We'd love to hear from you.
+              Have questions or want to get involved? We&apos;d love to hear from you.
             </p>
             <p>
               <strong>Email:</strong>{' '}
