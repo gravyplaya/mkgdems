@@ -14,7 +14,7 @@ export async function Footer() {
               <p>Muskegon County Democratic Party</p>
               <p>Muskegon, MI</p>
               <p className="mt-3">
-                <strong>Phone:</strong> <span>231 375 7515</span>
+                <strong>Phone:</strong> <span>231 335 7515</span>
               </p>
               <p>
                 <strong>Email:</strong> <span>muskegondems@gmail.com</span>
