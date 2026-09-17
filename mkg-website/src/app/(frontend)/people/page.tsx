@@ -4,18 +4,17 @@ import Link from 'next/link'
 export default function People() {
   return (
     <>
-      <PageHeader 
-        title="People" 
-        subtitle="Democratic leaders serving Muskegon County" 
-      />
+      <PageHeader title="People" subtitle="Democratic leaders serving Muskegon County" />
 
       {/* People Section */}
       <section id="people-details" className="service-details section">
         <div className="container">
           <div className="row gy-4">
-            <div className="col-lg-4"  >
+            <div className="col-lg-4">
               <div className="services-list">
-                <a href="#party-officials" className="active">Party Officials</a>
+                <a href="#party-officials" className="active">
+                  Party Officials
+                </a>
                 <a href="#us-senate">U.S. Senate</a>
                 <a href="#officials">County & Local Officials</a>
                 <a href="#candidate-profiles">Candidate Profiles</a>
@@ -23,31 +22,35 @@ export default function People() {
 
               <h4>Democratic Leadership</h4>
               <p>
-                Meet the Democrats representing Muskegon County at the federal,
-                state, and local levels.
+                Meet the Democrats representing Muskegon County at the federal, state, and local
+                levels.
               </p>
             </div>
 
-            <div className="col-lg-8"  >
+            <div className="col-lg-8">
               {/* Party Officials Section */}
               <div id="party-officials" className="mb-5">
                 <h3>Muskegon County Democratic Party Officials</h3>
                 <p>
-                  The following officers lead the Muskegon County Democratic Party.
-                  They are elected by party members and serve to organize, coordinate,
-                  and advance Democratic values throughout Muskegon County.
+                  The following officers lead the Muskegon County Democratic Party. They are elected
+                  by party members and serve to organize, coordinate, and advance Democratic values
+                  throughout Muskegon County.
                 </p>
 
                 {/* Party Chair */}
                 <div className="card mb-3">
                   <div className="card-body">
                     <h5 className="card-title">Party Chair</h5>
-                    <p className="card-text"><strong>Name:</strong> Open Position</p>
+                    <p className="card-text">
+                      <strong>Name:</strong> Open Position
+                    </p>
                     <p className="card-text mb-1">
-                      <strong>Contact Information:</strong><br />
+                      <strong>Contact Information:</strong>
+                      <br />
                       <i className="bi bi-envelope"></i>{' '}
-                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a><br />
-                      <i className="bi bi-telephone"></i> Phone: 231-375-7515
+                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a>
+                      <br />
+                      <i className="bi bi-telephone"></i> Phone: 231-335-7515
                     </p>
                   </div>
                 </div>
@@ -56,12 +59,16 @@ export default function People() {
                 <div className="card mb-3">
                   <div className="card-body">
                     <h5 className="card-title">Vice Chair</h5>
-                    <p className="card-text"><strong>Name:</strong> Open Position</p>
+                    <p className="card-text">
+                      <strong>Name:</strong> Open Position
+                    </p>
                     <p className="card-text mb-1">
-                      <strong>Contact Information:</strong><br />
+                      <strong>Contact Information:</strong>
+                      <br />
                       <i className="bi bi-envelope"></i>{' '}
-                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a><br />
-                      <i className="bi bi-telephone"></i> Phone: 231-375-7515
+                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a>
+                      <br />
+                      <i className="bi bi-telephone"></i> Phone: 231-335-7515
                     </p>
                   </div>
                 </div>
@@ -70,12 +77,16 @@ export default function People() {
                 <div className="card mb-3">
                   <div className="card-body">
                     <h5 className="card-title">Secretary</h5>
-                    <p className="card-text"><strong>Name:</strong> Open Position</p>
+                    <p className="card-text">
+                      <strong>Name:</strong> Open Position
+                    </p>
                     <p className="card-text mb-1">
-                      <strong>Contact Information:</strong><br />
+                      <strong>Contact Information:</strong>
+                      <br />
                       <i className="bi bi-envelope"></i>{' '}
-                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a><br />
-                      <i className="bi bi-telephone"></i> Phone: 231-375-7515
+                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a>
+                      <br />
+                      <i className="bi bi-telephone"></i> Phone: 231-335-7515
                     </p>
                   </div>
                 </div>
@@ -84,32 +95,60 @@ export default function People() {
                 <div className="card mb-3">
                   <div className="card-body">
                     <h5 className="card-title">Treasurer</h5>
-                    <p className="card-text"><strong>Name:</strong> Open Position</p>
+                    <p className="card-text">
+                      <strong>Name:</strong> Open Position
+                    </p>
                     <p className="card-text mb-1">
-                      <strong>Contact Information:</strong><br />
+                      <strong>Contact Information:</strong>
+                      <br />
                       <i className="bi bi-envelope"></i>{' '}
-                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a><br />
-                      <i className="bi bi-telephone"></i> Phone: 231-375-7515
+                      <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a>
+                      <br />
+                      <i className="bi bi-telephone"></i> Phone: 231-335-7515
                     </p>
                   </div>
                 </div>
 
                 <div className="alert alert-info mt-4">
-                  <i className="bi bi-info-circle"></i>{' '}
-                  <strong>Note:</strong> Officer positions are filled through election by
-                  party members at organizational meetings. If you are interested in a
-                  leadership role, please attend our monthly meetings or contact us
-                  at{' '}
-                  <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a>.
+                  <i className="bi bi-info-circle"></i> <strong>Note:</strong> Officer positions are
+                  filled through election by party members at organizational meetings. If you are
+                  interested in a leadership role, please attend our monthly meetings or contact us
+                  at <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a>.
                 </div>
 
                 <h4 className="mt-4">Party Contact Information</h4>
                 <ul>
-                  <li><i className="bi bi-building"></i> <strong>Address:</strong> CIO Hall, 490 W Western Ave, Muskegon, MI 49440</li>
-                  <li><i className="bi bi-envelope"></i> <strong>Email:</strong> <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a></li>
-                  <li><i className="bi bi-telephone"></i> <strong>Phone:</strong> 231-375-7515</li>
-                  <li><i className="bi bi-facebook"></i> <strong>Facebook:</strong> <a href="https://www.facebook.com/MuskegonDems/" target="_blank" rel="noopener noreferrer">@MuskegonDems</a></li>
-                  <li><i className="bi bi-instagram"></i> <strong>Instagram:</strong> <a href="https://www.instagram.com/muskegoncountydems/" target="_blank" rel="noopener noreferrer">@muskegoncountydems</a></li>
+                  <li>
+                    <i className="bi bi-building"></i> <strong>Address:</strong> CIO Hall, 490 W
+                    Western Ave, Muskegon, MI 49440
+                  </li>
+                  <li>
+                    <i className="bi bi-envelope"></i> <strong>Email:</strong>{' '}
+                    <a href="mailto:muskegondems@gmail.com">muskegondems@gmail.com</a>
+                  </li>
+                  <li>
+                    <i className="bi bi-telephone"></i> <strong>Phone:</strong> 231-335-7515
+                  </li>
+                  <li>
+                    <i className="bi bi-facebook"></i> <strong>Facebook:</strong>{' '}
+                    <a
+                      href="https://www.facebook.com/MuskegonDems/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      @MuskegonDems
+                    </a>
+                  </li>
+                  <li>
+                    <i className="bi bi-instagram"></i> <strong>Instagram:</strong>{' '}
+                    <a
+                      href="https://www.instagram.com/muskegoncountydems/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      @muskegoncountydems
+                    </a>
+                  </li>
                 </ul>
               </div>
 
@@ -117,8 +156,8 @@ export default function People() {
               <div id="us-senate" className="mb-5">
                 <h3>U.S. Senate</h3>
                 <p>
-                  Michigan&apos;s Democratic Senators represent our state and our
-                  values in the United States Senate.
+                  Michigan&apos;s Democratic Senators represent our state and our values in the
+                  United States Senate.
                 </p>
 
                 {/* Senator Elissa Slotkin */}
@@ -129,16 +168,24 @@ export default function People() {
                       <strong>U.S. Senator from Michigan</strong>
                     </p>
                     <p>
-                      Elissa Slotkin brings her experience as a CIA analyst and
-                      Pentagon official to the U.S. Senate, working to protect
-                      national security, support veterans, and fight for
-                      Michigan families.
+                      Elissa Slotkin brings her experience as a CIA analyst and Pentagon official to
+                      the U.S. Senate, working to protect national security, support veterans, and
+                      fight for Michigan families.
                     </p>
                     <p>
-                      <strong>Contact Information:</strong><br />
+                      <strong>Contact Information:</strong>
+                      <br />
                       <i className="bi bi-globe"></i>{' '}
-                      <a href="https://www.slotkin.senate.gov" target="_blank" rel="noopener noreferrer">Website</a><br />
-                      <i className="bi bi-telephone"></i> Phone: 616-975-0052<br />
+                      <a
+                        href="https://www.slotkin.senate.gov"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Website
+                      </a>
+                      <br />
+                      <i className="bi bi-telephone"></i> Phone: 616-975-0052
+                      <br />
                       <i className="bi bi-envelope"></i> Email: TBD
                     </p>
                   </div>
@@ -152,15 +199,23 @@ export default function People() {
                       <strong>U.S. Senator from Michigan</strong>
                     </p>
                     <p>
-                      Gary Peters serves Michigan in the U.S. Senate, focusing
-                      on protecting the Great Lakes, supporting manufacturing
-                      jobs, and ensuring national security.
+                      Gary Peters serves Michigan in the U.S. Senate, focusing on protecting the
+                      Great Lakes, supporting manufacturing jobs, and ensuring national security.
                     </p>
                     <p>
-                      <strong>Contact Information:</strong><br />
+                      <strong>Contact Information:</strong>
+                      <br />
                       <i className="bi bi-globe"></i>{' '}
-                      <a href="https://www.peters.senate.gov" target="_blank" rel="noopener noreferrer">Website</a><br />
-                      <i className="bi bi-telephone"></i> Phone: 616-233-9150<br />
+                      <a
+                        href="https://www.peters.senate.gov"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Website
+                      </a>
+                      <br />
+                      <i className="bi bi-telephone"></i> Phone: 616-233-9150
+                      <br />
                       <i className="bi bi-envelope"></i> Email: TBD
                     </p>
                   </div>
@@ -171,9 +226,8 @@ export default function People() {
               <div id="officials" className="mb-5">
                 <h3>Democratic County, City, and Township Officials</h3>
                 <p>
-                  These dedicated public servants represent our Democratic
-                  values in Muskegon County government, city councils, and
-                  township boards.
+                  These dedicated public servants represent our Democratic values in Muskegon County
+                  government, city councils, and township boards.
                 </p>
 
                 <h4>Muskegon County Commission</h4>
@@ -186,18 +240,18 @@ export default function People() {
                       <strong>County Commissioner, District 4</strong>
                     </p>
                     <p>
-                      Chris McGuigan is a Democrat serving her first term on the
-                      Muskegon County Board of Commissioners for District 4. She
-                      had a successful career as a lawyer and served as the
-                      executive director of the Community Foundation for
-                      Muskegon County for nearly two decades. Her priorities
-                      include expanding access to parks and recreation,
-                      strengthening public transportation, and investing in
+                      Chris McGuigan is a Democrat serving her first term on the Muskegon County
+                      Board of Commissioners for District 4. She had a successful career as a lawyer
+                      and served as the executive director of the Community Foundation for Muskegon
+                      County for nearly two decades. Her priorities include expanding access to
+                      parks and recreation, strengthening public transportation, and investing in
                       mental health and public health services.
                     </p>
                     <p>
-                      <strong>Contact Information:</strong><br />
-                      <i className="bi bi-telephone"></i> Phone: TBD<br />
+                      <strong>Contact Information:</strong>
+                      <br />
+                      <i className="bi bi-telephone"></i> Phone: TBD
+                      <br />
                       <i className="bi bi-envelope"></i> Email: TBD
                     </p>
                   </div>
@@ -206,20 +260,19 @@ export default function People() {
                 {/* Placeholder for other commissioners */}
                 <div className="alert alert-info">
                   <p>
-                    <em
-                      >Additional county commissioners, city council members,
-                      and township officials will be listed here. Information to
-                      be added.</em
-                    >
+                    <em>
+                      Additional county commissioners, city council members, and township officials
+                      will be listed here. Information to be added.
+                    </em>
                   </p>
                 </div>
 
                 <h4>City and Township Officials</h4>
                 <p>
-                  <em
-                    >City council members, township trustees, and other local
-                    Democratic officials to be added.</em
-                  >
+                  <em>
+                    City council members, township trustees, and other local Democratic officials to
+                    be added.
+                  </em>
                 </p>
               </div>
 
@@ -227,33 +280,28 @@ export default function People() {
               <div id="candidate-profiles" className="mb-5">
                 <h3>Candidate Profiles</h3>
                 <p>
-                  Learn about Democratic candidates running for office in
-                  Muskegon County and across Michigan.
+                  Learn about Democratic candidates running for office in Muskegon County and across
+                  Michigan.
                 </p>
 
                 <div className="alert alert-info">
-                  <i className="bi bi-info-circle"></i>{' '}
-                  <strong>Candidate Information</strong>
+                  <i className="bi bi-info-circle"></i> <strong>Candidate Information</strong>
                   <p className="mb-0 mt-2">
-                    Candidate profiles will be updated during election seasons.
-                    Check back for information about Democratic candidates for
-                    federal, state, and local offices.
+                    Candidate profiles will be updated during election seasons. Check back for
+                    information about Democratic candidates for federal, state, and local offices.
                   </p>
                 </div>
 
                 <h4>How to Support Democratic Candidates:</h4>
                 <ul>
                   <li>
-                    <i className="bi bi-check-circle"></i>{' '}
-                    <span>Volunteer for campaigns</span>
+                    <i className="bi bi-check-circle"></i> <span>Volunteer for campaigns</span>
                   </li>
                   <li>
-                    <i className="bi bi-check-circle"></i>{' '}
-                    <span>Make financial contributions</span>
+                    <i className="bi bi-check-circle"></i> <span>Make financial contributions</span>
                   </li>
                   <li>
-                    <i className="bi bi-check-circle"></i>{' '}
-                    <span>Attend campaign events</span>
+                    <i className="bi bi-check-circle"></i> <span>Attend campaign events</span>
                   </li>
                   <li>
                     <i className="bi bi-check-circle"></i>{' '}
@@ -266,20 +314,22 @@ export default function People() {
                 </ul>
 
                 <p>
-                  <Link href="/get-involved" className="btn btn-primary">Get Involved with Campaigns</Link>
+                  <Link href="/get-involved" className="btn btn-primary">
+                    Get Involved with Campaigns
+                  </Link>
                 </p>
 
                 <h4>State and Federal Representatives</h4>
                 <p>
-                  In addition to our U.S. Senators, Muskegon County is
-                  represented by Democrats in the U.S. House of Representatives,
-                  Michigan State Senate, and Michigan State House.
+                  In addition to our U.S. Senators, Muskegon County is represented by Democrats in
+                  the U.S. House of Representatives, Michigan State Senate, and Michigan State
+                  House.
                 </p>
                 <p>
-                  <em
-                    >Representative information with contact details to be added
-                    (URLs, phone numbers, office addresses).</em
-                  >
+                  <em>
+                    Representative information with contact details to be added (URLs, phone
+                    numbers, office addresses).
+                  </em>
                 </p>
               </div>
             </div>
