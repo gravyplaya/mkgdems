@@ -13,42 +13,68 @@ export async function Footer() {
             <div className="footer-contact pt-3">
               <p>Muskegon County Democratic Party</p>
               <p>Muskegon, MI</p>
-              <p className="mt-3"><strong>Phone:</strong> <span>231 375 7515</span></p>
-              <p><strong>Email:</strong> <span>muskegondems@gmail.com</span></p>
+              <p className="mt-3">
+                <strong>Phone:</strong> <span>231 375 7515</span>
+              </p>
+              <p>
+                <strong>Email:</strong> <span>muskegondems@gmail.com</span>
+              </p>
             </div>
             <div className="social-links d-flex mt-4">
-              <a href="https://www.facebook.com/MuskegonDems/" title="Facebook"><i className="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/muskegoncountydems/" title="Instagram"><i className="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/MuskegonDems/" title="Facebook">
+                <i className="bi bi-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/muskegoncountydems/" title="Instagram">
+                <i className="bi bi-instagram"></i>
+              </a>
             </div>
           </div>
 
           <div className="col-lg-2 col-md-3 footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/get-involved">Get Involved</Link></li>
-              <li><Link href="/elections">Elections & Voting</Link></li>
-              <li><Link href="/governance">Governance</Link></li>
-              <li><Link href="/people">People</Link></li>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/get-involved">Get Involved</Link>
+              </li>
+              <li>
+                <Link href="/elections">Elections & Voting</Link>
+              </li>
+              <li>
+                <Link href="/governance">Governance</Link>
+              </li>
+              <li>
+                <Link href="/people">People</Link>
+              </li>
             </ul>
           </div>
 
           <div className="col-lg-2 col-md-3 footer-links">
             <h4>Resources</h4>
             <ul>
-              <li><Link href="/events">Events</Link></li>
-              <li><Link href="/governance#agenda">Meeting Agendas</Link></li>
-              <li><Link href="/governance#resolutions">Resolutions</Link></li>
-              <li><Link href="/elections#district-maps">District Maps</Link></li>
-              <li><Link href="/#contact">Contact Us</Link></li>
+              <li>
+                <Link href="/events">Events</Link>
+              </li>
+              <li>
+                <Link href="/governance#agenda">Meeting Agendas</Link>
+              </li>
+              <li>
+                <Link href="/governance#resolutions">Resolutions</Link>
+              </li>
+              <li>
+                <Link href="/elections#district-maps">District Maps</Link>
+              </li>
+              <li>
+                <Link href="/#contact">Contact Us</Link>
+              </li>
             </ul>
           </div>
 
           <div className="col-lg-4 col-md-12 footer-newsletter">
             <h4>Get In Touch</h4>
-            <p>
-              Have questions or want to get involved? We&apos;d love to hear from you.
-            </p>
+            <p>Have questions or want to get involved? We&apos;d love to hear from you.</p>
             <p>
               <strong>Email:</strong>{' '}
               <a href="mailto:muskegondems@gmail.com" style={{ color: 'var(--accent-color)' }}>
@@ -56,11 +82,15 @@ export async function Footer() {
               </a>
             </p>
             <p>
-              <strong>Phone:</strong> 231-375-7515
+              <strong>Phone:</strong> 231-335-7515
             </p>
             <div className="social-links d-flex mt-3">
-              <a href="https://www.facebook.com/MuskegonDems/" title="Facebook"><i className="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/muskegoncountydems/" title="Instagram"><i className="bi bi-instagram"></i></a>
+              <a href="https://www.facebook.com/MuskegonDems/" title="Facebook">
+                <i className="bi bi-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/muskegoncountydems/" title="Instagram">
+                <i className="bi bi-instagram"></i>
+              </a>
             </div>
           </div>
         </div>
